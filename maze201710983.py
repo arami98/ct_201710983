@@ -105,4 +105,4 @@ t1.left(90)
 t1.fd(80)
 t1.right(90)
 t1.fd(15)
- 
+wn.exitonclick() 
