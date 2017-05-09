@@ -2,6 +2,7 @@ import turtle
 wn = turtle.Screen()
 t1=turtle.Turtle()
 wn.bgpic("D:\\arami.gif")
+t1.pencolor('Blue')
 t1.penup()
 t1.right(90)
 t1.fd(100)
