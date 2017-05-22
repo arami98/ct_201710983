@@ -1,0 +1,26 @@
+﻿import turtle
+wn=turtle.Screen()
+t1=turtle.Turtle()
+def giyukAt(size,x,y):
+    t1.penup()
+    t1.goto(x,y)
+    t1.pendown()
+    t1.fd(size)
+    t1.right(90)
+    t1.fd(size)
+def nieunAt(size,x,y):
+    t1.penup()
+    t1.goto(x,y)
+    t1.pendown()
+    t1.bk(size)
+    t1.left(90)
+    t1.fd(size)
+def mieumAt(size,x,y):
+    t1.penup()
+    t1.goto(x,y)
+    t1.pendown()
+    nieunAt(size,x,y)
+    t1.right(90)
+    giyukAt(size,x-size,y+size)
+mieumAt(50,100,100)
+wn.exitonclick()
